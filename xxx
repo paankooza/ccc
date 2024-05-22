@@ -1,0 +1,60 @@
+<reviews itemIdentifier="macos_iso">
+<review>
+<reviewtitle>Incorrect checksum for Monterey_12.6.1.iso</reviewtitle>
+<reviewbody>$ cat Monterey_12.6.1.iso.sha256sum 632a60122f71d6dae176f4be5882a3f2a51936f228bae185da64b5f449c3f14a Monterey_12.6.1.iso $ sha256sum Monterey_12.6.1.iso 6d72edccafab6b5b00668fdf9922ec1cf7e1279580792f4ae4bce663bcc748c5 Monterey_12.6.1.iso</reviewbody>
+<stars>4</stars>
+<reviewer>gav-</reviewer>
+<reviewdate>2023-03-09 03:33:09</reviewdate>
+<createdate>2023-03-09 03:33:09</createdate>
+<reviewer_itemname>@gav-s</reviewer_itemname>
+</review>
+<review>
+<reviewtitle>Hi @5xdf</reviewtitle>
+<reviewbody>To boot macOS inside VM, you will need a specific setting. Without it, the boot process will failed. I'm using quickemu. Check the project for more information.</reviewbody>
+<stars>5</stars>
+<reviewer>dk135dk135</reviewer>
+<reviewdate>2024-01-22 23:29:10</reviewdate>
+<createdate>2023-03-10 04:37:04</createdate>
+<reviewer_itemname>@donny_kurnia</reviewer_itemname>
+</review>
+<review>
+<reviewtitle>Hi, @dk135dk135</reviewtitle>
+<reviewbody>I looked up that and it is only for Linux, I am using Windows 11. I have gotten this to work before I got a new PC but now I am unable to get it to work at all, it is stuck on the Apple logo. Been like that for 30 minutes. What is the specific mode you have to enter? Should also mention that the one i was trying to do was Ventura</reviewbody>
+<stars>5</stars>
+<reviewer>5xdf</reviewer>
+<reviewdate>2024-03-24 16:26:51</reviewdate>
+<createdate>2024-01-21 17:42:21</createdate>
+<reviewer_itemname>@5xdf</reviewer_itemname>
+</review>
+<review>
+<reviewtitle>Not working in virtual box</reviewtitle>
+<reviewbody>I can't get any single one to work in VirtualBox. Are there settings to do this or is it not meant for that? Due to possible "wrong boot order" or about the kernel or something. NO VM's WORK :(</reviewbody>
+<stars>0</stars>
+<reviewer>TheOnlyDuckPilot</reviewer>
+<reviewdate>2024-05-10 13:05:53</reviewdate>
+<createdate>2024-05-10 13:05:53</createdate>
+<reviewer_itemname>@theonlyduckpilot</reviewer_itemname>
+</review>
+<review>
+<reviewtitle>Waste Of Time</reviewtitle>
+<reviewbody>I Almost Spend one of my 8 hours several suspension in the downloads was there because i have a poor internet. It cannot boot in VMware it recognize this iso as Non bootable. It was a really bad experience</reviewbody>
+<stars>2</stars>
+<reviewer>Horizion11</reviewer>
+<reviewdate>2024-05-15 11:00:32</reviewdate>
+<createdate>2024-05-15 11:00:32</createdate>
+<reviewer_itemname>@preetha_k270</reviewer_itemname>
+</review>
+<review>
+<reviewtitle>type this in cmd it will work</reviewtitle>
+<reviewbody> ----------- Disable Hyper-V ------------- bcdedit /set hypervisorlaunchtype off ----------- Patch Virtual Machine ---------- # Intel Processor cd "C:\Program Files\Oracle\VirtualBox\" VBoxManage.exe modifyvm "VM Name" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff VBoxManage setextradata "VM Name" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac19,3" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0 VBoxManage setextradata "VM Name" "VBoxInternal/TM/TSCMode" "RealTSCOffset" # AMD Processor cd "C:\Program Files\Oracle\VirtualBox\" VBoxManage.exe modifyvm "VM Name" --cpuidset 00000001 000106e5 00100800 0098e3fd bfebfbff VBoxManage setextradata "VM Name" "VBoxInternal/Devices/efi/0/Config/DmiSystemProduct" "iMac19,3" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/efi/0/Config/DmiSystemVersion" "1.0" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/efi/0/Config/DmiBoardProduct" "Iloveapple" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/smc/0/Config/DeviceKey" "ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc" VBoxManage setextradata "VM Name" "VBoxInternal/Devices/smc/0/Config/GetKeyFromRealSMC" 0 VBoxManage modifyvm "VM Name" --cpu-profile "Intel Core i7-6700K" VBoxManage setextradata "VM Name" "VBoxInternal/TM/TSCMode" "RealTSCOffset" ------------- Increase Display Resolution & Memory ---------------- cd "C:\Program Files\Oracle\VirtualBox\" VBoxManage setextradata “VM Name” VBoxInternal2/EfiGraphicsResolution 1920x1080 Choose a Resolution: 1280x720 | 1920x1080 | 2560x1440 | 2048x1080 | 3840x2160 HD FHD QHD 2K 4K VBoxManage modifyvm "VM Name" --vram 256 </reviewbody>
+<stars>5</stars>
+<reviewer>Filip746</reviewer>
+<reviewdate>2024-05-19 06:49:42</reviewdate>
+<createdate>2024-05-19 06:46:47</createdate>
+<reviewer_itemname>@filip746</reviewer_itemname>
+</review>
+<info>
+<num_reviews>6</num_reviews>
+<avg_rating>4.20</avg_rating>
+</info>
+</reviews>
